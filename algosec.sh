@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # check for any pyhton version
-for PYTHON in python2.6 python2.7 python3.0 python3.1 python3.2 python3.3 python3.4 python3.5 python3.6 python3.7 python3.8 python3.9 python3.10 python3.11 python3.12 python
-#for PYTHON in python3.0 python3.1 python3.2 python3.3 python3.4 python3.5 python3.6 python3.7 python3.8 python3.9 python3.10 python3.11 python3.12 python
+#for PYTHON in python2.6 python2.7 python3.0 python3.1 python3.2 python3.3 python3.4 python3.5 python3.6 python3.7 python3.8 python3.9 python3.10 python3.11 python3.12 python
+for PYTHON in python3.0 python3.1 python3.2 python3.3 python3.4 python3.5 python3.6 python3.7 python3.8 python3.9 python3.10 python3.11 python3.12 python
 do
     $PYTHON -V 1> /dev/null 2>&1 && break
 done
